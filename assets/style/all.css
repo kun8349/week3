@@ -305,4 +305,41 @@ i {
   .copyright a {
     margin-left: 0; } }
 
+/**/
+.banner {
+  background-image: url(/assets/images/week3-4/home-header.png);
+  background-position: center center;
+  background-size: cover;
+  height: 787px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  text-align: right; }
+
+.content {
+  margin-right: 312px;
+  color: #650300; }
+
+.content span {
+  font-size: 36px;
+  line-height: 1.5;
+  font-weight: 400; }
+
+.banner h1 {
+  font-size: 64px;
+  line-height: 1.5;
+  font-weight: bold; }
+
+.banner a {
+  font-size: 20px;
+  line-height: 29px;
+  background: #AA0601;
+  padding: 6px 12px; }
+
 /*# sourceMappingURL=all.css.map */
