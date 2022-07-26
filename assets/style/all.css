@@ -85,6 +85,9 @@ a {
   text-decoration: none;
   color: white; }
 
+img {
+  vertical-align: middle; }
+
 .header {
   background-color: #AA0601; }
 
@@ -341,5 +344,110 @@ i {
   line-height: 29px;
   background: #AA0601;
   padding: 6px 12px; }
+
+.content-word {
+  background-color: #FBF2F2;
+  color: #650300;
+  font-weight: bold;
+  padding-bottom: 80px; }
+
+.content-word h2 {
+  padding-top: 80px;
+  padding-bottom: 32px;
+  font-size: 48px;
+  line-height: 1.5; }
+
+.content-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 1300px;
+  margin: 0 auto; }
+
+.content-flex img {
+  margin-bottom: 24px; }
+
+.content-flex h3 {
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 8px; }
+
+.content-flex p {
+  text-align: left;
+  color: black;
+  font-size: 16px;
+  line-height: 1.5; }
+
+.content-container {
+  width: 306px;
+  margin: 0 auto; }
+
+.glasses-style {
+  text-align: center;
+  width: 1300px;
+  margin: 80px auto; }
+
+.glasses-style h2 {
+  color: #650300;
+  font-size: 48px;
+  line-height: 1.5;
+  font-weight: bold;
+  margin-bottom: 48px; }
+
+.glasses-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between; }
+
+.glasses-style img {
+  width: 416px;
+  height: 416px;
+  margin-bottom: 8px; }
+
+.glasses-style p {
+  color: #AA0601;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 1.5;
+  font-style: italic; }
+
+.glasses-partner {
+  background-image: url(/assets/images/week3-4/nick-owuor-astro-nic-visuals-54Q_HvMWtVE-unsplash.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 608px; }
+
+.glasses-partner h2 {
+  color: white;
+  padding-top: 80px;
+  padding-bottom: 48px;
+  font-size: 48px;
+  line-height: 1.5; }
+
+.glasses-partner img {
+  width: 648px;
+  height: 240px; }
+
+.glasses-partner-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.glasses-partner p {
+  background-color: #fff;
+  color: #AA0601;
+  font-size: 48px;
+  line-height: 1.5;
+  font-weight: 900;
+  font-style: italic; }
+
+.glasses-partner p:nth-child(2) {
+  border-left: 1px solid gray; }
 
 /*# sourceMappingURL=all.css.map */
