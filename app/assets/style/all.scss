@@ -125,7 +125,7 @@ img{
 }
 @media (max-width: 375px) {
   .container img{
-    margin: 12px 147px 11px 148px;
+    margin: 12px 147px;
   }
 }
 .title-list{
@@ -141,7 +141,6 @@ img{
       font-size: 16px;
       width: 50%;
       text-align: center;
-      
   }
 }
 
@@ -164,12 +163,6 @@ img{
   font-size: $font-footer;
   line-height: 1.5;
 }
-@media (max-width: 375px){
-  .footer{
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
 .footer-container{
   max-width: 1300px;
   margin: 0 auto;
@@ -179,6 +172,7 @@ img{
 @media (max-width: 375px) {
   .footer-container{
     padding-top: 0px;
+    max-width: 320px;
   }
 }
 .footer-list{
@@ -508,7 +502,7 @@ i{
     width: 320px;
     margin: 0 auto;
     img{
-      width: 320px;
+      width: 100%;
     }
     li{
       padding-bottom: 24px;
@@ -571,7 +565,7 @@ i{
       margin-bottom: 24px;
     }
     img{
-      width: 320px;
+      width: 100%;
     }
   }
   .custermer-flex{
@@ -584,7 +578,7 @@ i{
     }
   }
   .custermer-container{
-    width: 321.5px;
+    width: 100%;
     p{
       margin-bottom: 96px;
     }
@@ -669,14 +663,14 @@ i{
     }
   }
   .contact-container{
-    width: 320px;
+    max-width: 320px;
     h2{
       padding-top: 40px;
       padding-bottom: 24px;
     }
   }
   .contact-list li input{
-    width: 320px;
+    width: 100%;
   }
   .checkbox-flex{
     align-items: start;
