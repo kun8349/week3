@@ -11,7 +11,7 @@
     font-weight: bold; } }
 
 .banner {
-  background-image: url(/assets/images/week3-4/home-header.png);
+  background-image: url(../images/week3-4/home-header.png);
   background-position: center;
   background-size: cover;
   height: 787px;
@@ -48,7 +48,7 @@
 
 @media (max-width: 375px) {
   .banner {
-    background-image: url(/assets/images/week3-4/home-header-sm.png);
+    background-image: url(../images/week3-4/home-header-sm.png);
     height: 396px; }
   .banner-content {
     margin-right: 14px; }
@@ -166,7 +166,7 @@
     height: auto; } }
 
 .glasses-partner {
-  background-image: url(/assets/images/week3-4/nick-owuor-astro-nic-visuals-54Q_HvMWtVE-unsplash.jpg);
+  background-image: url(../images/week3-4/nick-owuor-astro-nic-visuals-54Q_HvMWtVE-unsplash.jpg);
   background-size: cover;
   background-position: center center;
   height: 608px; }
