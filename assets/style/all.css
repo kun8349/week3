@@ -53,14 +53,18 @@ table {
 
 body {
   text-align: center;
-  font-family: 'Noto Sans',serif; }
+  font-family: 'Noto Sans',serif;
+  overflow-y: scroll;
+  overflow-x: hidden; }
 
 a {
   text-decoration: none;
   color: white; }
 
 img {
-  vertical-align: middle; }
+  vertical-align: middle;
+  max-width: 100%;
+  height: auto; }
 
 .header {
   background-color: #AA0601; }
@@ -182,7 +186,7 @@ img {
     height: 24px;
     margin-left: 8px;
     position: relative;
-    top: 20px; } }
+    top: 24px; } }
 
 .footer-flex {
   display: -webkit-box;
@@ -231,7 +235,7 @@ i {
 
 @media (max-width: 375px) {
   .border {
-    max-width: 348px;
+    max-width: 320px;
     margin: 0 auto 15px auto; } }
 
 .footer-Copyright {
