@@ -54,62 +54,37 @@ $font-logo:12px;
 $font-title:20px;
 $font-footer:16px;
 
-
-.pt-3{
-  padding-top: $space*3;
-}
-.pt-9{
-  padding-top: $space*9;
-}
-.pt-12{
-  padding-top: $space*12;
-}
-.pb-3{
-  padding-bottom: $space*3;
-}
-.pb-8{
-  padding-bottom: 32px;
-}
-
-.mb-2{
-  margin-bottom: $space*2;
-}
-.mb-7{
-  margin-bottom: $space*7;
-}
-.mb-8{
-  margin-bottom: $space*8;
-}
-.mb-9{
-  margin-bottom: $space*9;
-}
-.mb-43{
-  margin-bottom: 43px;
-}
 *,*::before,*::after {
   box-sizing: border-box;
 }
 body{
   text-align: center;
   font-family: 'Noto Sans',serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
+
 a{
   text-decoration: none;
   color: white;
 }
 img{
   vertical-align: middle;
+  max-width:100%;
+  height: auto;
 }
 .header{
   background-color: #AA0601;
 }
 
 .container{
-  max-width: 1300px;
+  max-width: 1320px;
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 12px;
+  padding-bottom: 12px;
 }
 @media (max-width: 375px) {
   .container{
@@ -164,7 +139,7 @@ img{
   line-height: 1.5;
 }
 .footer-container{
-  max-width: 1300px;
+  max-width: 1320px;
   margin: 0 auto;
   padding-top: 48px;
   padding-bottom: 32px;
@@ -206,7 +181,7 @@ img{
     height: 24px;
     margin-left: 8px;
     position:relative;
-    top: 20px;
+    top: 24px;
   }
 }
 .footer-flex{
@@ -256,7 +231,7 @@ i{
 }
 @media (max-width: 375px) {
   .border{
-    max-width: 348px;
+    max-width: 320px;
     margin: 0 auto 15px auto;
   }
   
@@ -297,393 +272,6 @@ i{
 }
 
 
-/**/
-.title-word h2{
-  font-size: 48px;
-  line-height: 1.5;
-  font-weight: bold;
-  text-align: center;
-}
-@media (max-width: 375px){
-  .title-word h2{
-    font-size: 24px;
-    font-weight: bold;
-}
-}
-.banner{
-  background-image: url(/assets/images/week3-4/home-header.png);
-  background-position: center;
-  background-size: cover;
-  height: 787px;
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  text-align: right;
-}
-.banner-content{
-  margin-right: 312px;
-  color: #650300;
-}
-.banner h2{
-  font-size: 64px;
-  line-height: 1.5;
-  font-weight: 900;
-}
-.banner-content span{
-  font-size: 36px;
-  line-height: 1.5;
-  font-weight: 400;
-}
-
-.banner a{
-  font-size: 20px;
-  line-height: 29px;
-  background: #AA0601;
-  padding: 6px 12px;
-}
-@media (max-width: 375px){
-  .banner{
-    background-image: url(/assets/images/week3-4/home-header-sm.png);
-    height: 396px;
-  }
-  .banner-content{
-    margin-right: 14px;
-  }
-  .banner-content span{
-    font-size: 16px;
-  }
-  .banner h2{
-    font-size: 24px;
-    font-weight: bold;
-  }
-}
-.content-word{
-  background-color: #FBF2F2;
-  color:#650300;
-  font-weight: bold;
-  padding-bottom: 80px;
-}
-.content-word h2{
-  padding-top: 80px;
-  padding-bottom: 32px;
-}
-.content-flex{
-  display: flex;
-  width: 1300px;
-  margin: 0 auto;
-}
-.content-flex img{
-  margin-bottom: 24px;
-}
-.content-flex h3{
-  font-size: 24px;
-  line-height: 36px;
-  margin-bottom: 8px;
-}
-.content-flex p{
-  text-align: left;
-  color: black;
-  font-size: 16px;
-  line-height: 1.5;
-}
-.content-container{
-  width: 306px;
-  margin: 0 auto;
-}
-@media (max-width: 375px){
-  .content-flex{
-    max-width: 320px;
-  }
-  .content-word{
-    padding-bottom: 8px;
-  }
-  .content-word h2{
-    padding-top: 40px;
-  }
-  .content-flex{
-    display: flex;
-    flex-direction: column;
-  }
-  .content-flex img{
-    width: 83px;
-    height: 83px;
-  }
-  .content-flex p{
-    padding-bottom: 32px;
-    width: 100%;
-  }
-  .content-container{
-    margin: 0;
-    max-width: 320px;
-  }
-}
-.glasses-style{
-  text-align: center;
-  width: 1300px;
-  margin: 80px auto;
-}
-.glasses-style h2{
-  color: #650300;
-  margin-bottom: 48px;
-}
-.glasses-flex{
-  display: flex;
-  justify-content: space-between;
-}
-.glasses-style img{
-  width: 416px;
-  height: 416px;
-  margin-bottom: 8px;
-}
-.glasses-style p{
-  color: #AA0601;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 1.5;
-  font-style: italic;
-}
-@media (max-width: 375px){
-  .glasses-style{
-    max-width: 320px;
-    margin: 40px auto 16px auto;
-    p{
-      margin-bottom: 24px;
-    }
-  }
-  .glasses-flex{
-    flex-direction: column;
-    align-items: start;
-  }
-  .glasses-style img{
-    width: 100%;
-    height: auto;
-  }
-}
-.glasses-partner{
-  background-image: url(/assets/images/week3-4/nick-owuor-astro-nic-visuals-54Q_HvMWtVE-unsplash.jpg);
-  background-size: cover;
-  background-position: center center;
-  height: 608px;
-}
-.glasses-partner h2{
-  color: white;
-  padding-top: 80px;
-  padding-bottom: 48px;
-}
-.glasses-partner img{
-  width: 648px;
-  height: 240px;
-}
-.glasses-partner-flex{
-  display: flex;
-  justify-content: center;
-}
-.glasses-partner p{
-  background-color: #fff;
-  color: #AA0601;
-  font-size: 48px;
-  line-height: 1.5;
-  font-weight: 900;
-  font-style: italic;
-}
-.glasses-partner p:nth-child(2){
-  border-left: 1px solid gray;
-}
-@media (max-width: 375px){
-  .glasses-partner{
-    height: auto;
-    h2{
-      padding-top: 40px;
-      padding-bottom: 24px;
-    }
-  }
-  .glasses-partner-flex{
-    flex-direction: column;
-    width: 320px;
-    margin: 0 auto;
-    img{
-      width: 100%;
-    }
-    li{
-      padding-bottom: 24px;
-    }
-    li:nth-child(2){
-      padding-bottom: 40px;
-    }
-  }
-}
-.custermer{
-  width: 1300px;
-  margin: 0 auto;
-  h2{
-    color: #650300;
-    margin-top: 80px;
-    margin-bottom: 48px;
-  }
-  img{
-    width: 306px;
-    height: 306px;
-  }
-}
-.custermer-flex{
-  display: flex;
-  justify-content: space-between;
-}
-.custermer-container{
-  width: 306px;
-  border: 1px solid #DEE2E6;
-  text-align: left;
-  margin-bottom: 80px;
-  h3,p,h4{
-    margin-left: 16px;
-    margin-right: 16px;
-    font-size: 16px;
-    line-height: 1.5;
-  }
-  h3{
-    font-weight: 400;
-    margin-top: 16px;
-    margin-bottom: 8px;
-  }
-  p{
-    margin-bottom: 72px;
-  }
-  p:nth-child(4n){
-    margin-bottom: 16px;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #707070;
-  }
-}
-@media (max-width: 375px){
-  .custermer{
-    max-width: 320px;
-    height: auto;
-    margin-bottom: 40px;
-    h2{
-      margin-top: 40px;
-      margin-bottom: 24px;
-    }
-    img{
-      width: 100%;
-    }
-  }
-  .custermer-flex{
-    flex-direction: column;
-    li{
-      margin-bottom: 16px;
-    }
-    li:nth-child(4){
-      margin-bottom: 0;
-    }
-  }
-  .custermer-container{
-    width: 100%;
-    p{
-      margin-bottom: 96px;
-    }
-  }
-}
-.contact{
-  background-color: #FBF2F2;
-}
-.contact-container{
-  width: 636px;
-  margin: 0 auto;
-  text-align: left;
-  h2{
-    color: #650300;
-    padding-top: 80px;
-    padding-bottom: 48px;
-    text-align: center;
-  }
-  p{
-    font-size: 20px;
-    line-height: 1.5;
-    font-weight: 400;
-    padding-bottom: 24px;
-  }
-}
-.contact-list li{
-  padding-bottom: 16px;
-  p{
-    font-size: 16px;
-    line-height: 1.5;
-    padding-bottom: 8px;
-  }
-  input{
-    width: 632px;
-    height: 32px;
-    padding: 0;
-    font-size: 20px;
-    line-height: 1.5;
-  }
-  .comment{
-    height: 136px;
-  }
-}
-.comment::placeholder{
-  position: relative;
-  bottom: 50px;
-  text-align: left;
-}
-.checkbox-flex{
-  display: flex;
-  align-items: center;
-  padding-bottom: 48px;
-  p{
-    font-size: 16px;
-    line-height: 1.5;
-    padding: 0;
-  }
-}
-.ckbox{ 
-  height: 24px;
-  width: 24px;
-  margin:0 4px 0 0;
-}
-.but-container{
-  text-align: center;
-  padding-bottom: 80px;
-}
-.content-but{
-  border: 0;
-  background-color: #AA0601;
-  color: white;
-  cursor:pointer;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: bold;
-  padding: 16px 176px;
-}
-@media (max-width: 375px){
-  .contact{
-    li,p{
-      font-size: 16px;
-    }
-  }
-  .contact-container{
-    max-width: 320px;
-    h2{
-      padding-top: 40px;
-      padding-bottom: 24px;
-    }
-  }
-  .contact-list li input{
-    width: 100%;
-  }
-  .checkbox-flex{
-    align-items: start;
-    padding-bottom: 24px;
-  }
-  .content-but{
-    padding: 16px 128px;
-  }
-  .but-container{
-    padding-bottom: 40px;
-  }
-  
-}
 
  
 
