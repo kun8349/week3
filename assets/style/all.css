@@ -70,7 +70,7 @@ img {
   background-color: #AA0601; }
 
 .container {
-  max-width: 1300px;
+  max-width: 1320px;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -141,7 +141,7 @@ img {
   line-height: 1.5; }
 
 .footer-container {
-  max-width: 1300px;
+  max-width: 1320px;
   margin: 0 auto;
   padding-top: 48px;
   padding-bottom: 32px; }
