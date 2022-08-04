@@ -673,7 +673,12 @@ img {
     width: 48px;
     height: 48px; }
     .footer-icon img:hover {
-      opacity: 0.5; }
+      -webkit-transition: all 0.5s;
+      -o-transition: all 0.5s;
+      transition: all 0.5s;
+      -webkit-transform: scale(1.2);
+          -ms-transform: scale(1.2);
+              transform: scale(1.2); }
 
 .footer-Copyright {
   padding-top: 32px;
@@ -978,7 +983,7 @@ img {
   line-height: 1.5;
   font-weight: 700;
   text-align: left;
-  margin-bottom: 33px;
+  margin-bottom: 32px;
   border-left: 7px solid #9F1213;
   padding-left: 16px;
   margin-top: 96px; }
@@ -1159,5 +1164,88 @@ img {
     display: block; }
   .store-branch div {
     width: 100%; } }
+
+.question-list {
+  width: 66.05%;
+  line-height: 1.5;
+  text-align: left;
+  font-weight: 700; }
+  .question-list li {
+    margin-bottom: 32px; }
+    .question-list li:first-child {
+      margin-bottom: 24px; }
+    .question-list li:last-child {
+      margin-bottom: 80px; }
+  .question-list h2 {
+    font-size: 24px; }
+  .question-list h3 {
+    font-size: 20px;
+    margin-bottom: 8px; }
+  .question-list p {
+    font-size: 16px;
+    font-weight: 400; }
+
+@media (max-width: 992px) {
+  .question-list {
+    width: 100%; } }
+
+.blog-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 60px; }
+  .blog-list li:last-child {
+    margin-bottom: 124px; }
+
+.blog-list img {
+  width: 49.1%; }
+
+.blog-news {
+  text-align: left;
+  margin-left: 24px;
+  font-weight: 400; }
+  .blog-news h2 {
+    color: #650300;
+    font-size: 32px;
+    line-height: 1.5; }
+  .blog-news span {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 20px; }
+    .blog-news span:last-child {
+      font-size: 16px;
+      color: #555555; }
+  .blog-news p {
+    font-size: 20px;
+    color: #555555;
+    line-height: 1.5; }
+  .blog-news a {
+    display: block;
+    text-align: right;
+    padding-top: 15%;
+    color: #650300;
+    font-size: 36px;
+    line-height: 1.5;
+    font-weight: 700; }
+    .blog-news a:hover {
+      opacity: 0.5; }
+
+@media (max-width: 992px) {
+  .blog-news a {
+    text-transform: lowercase;
+    font-size: 20px;
+    color: #555555;
+    margin: 0; }
+    .blog-news a::before {
+      content: '...'; } }
 
 /*# sourceMappingURL=all.css.map */
