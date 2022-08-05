@@ -1189,6 +1189,37 @@ img {
   .question-list {
     width: 100%; } }
 
+.blog-container {
+  background-color: #650300; }
+
+.blog-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  .blog-nav i {
+    font-size: 30px; }
+    .blog-nav i:hover {
+      opacity: 0.5; }
+
+.blog-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 700; }
+  .blog-title a {
+    display: block;
+    margin: 13px 48px 13px 0; }
+    .blog-title a:hover {
+      opacity: 0.5; }
+
 .blog-list li {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1240,12 +1271,58 @@ img {
       opacity: 0.5; }
 
 @media (max-width: 992px) {
+  .blog-list img {
+    height: 240px;
+    width: 380px; }
+  .blog-news h2 {
+    font-size: 24px; }
+  .blog-news p {
+    font-size: 16px;
+    overflow: hidden;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical; }
+  .blog-news span {
+    margin-bottom: 4px;
+    font-size: 16px; }
   .blog-news a {
     text-transform: lowercase;
     font-size: 20px;
     color: #555555;
-    margin: 0; }
+    margin: 0;
+    padding-top: 8%; }
     .blog-news a::before {
       content: '...'; } }
+
+@media (max-width: 768px) {
+  .blog-container i {
+    display: none; }
+  .blog-title a {
+    margin: 0;
+    padding: 12px 7px;
+    font-size: 16px;
+    margin: 6 7px; }
+  .store h2 {
+    font-size: 24px; }
+  .blog-list li {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column; }
+  .blog-list img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 8px; }
+  .blog-news {
+    margin-left: 0; }
+    .blog-news p {
+      display: none; }
+    .blog-news a {
+      display: none; } }
 
 /*# sourceMappingURL=all.css.map */
