@@ -584,7 +584,8 @@ img {
       flex-wrap: wrap; }
 
 .title-list a {
-  margin-left: 64px; }
+  margin-left: 64px;
+  display: block; }
   .title-list a:hover {
     border-bottom: 1px solid white; }
 
